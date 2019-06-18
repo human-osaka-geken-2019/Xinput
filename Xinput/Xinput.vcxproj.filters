@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Xinput">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6b031a67-796b-42f5-9e65-534e4dd8a595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dx">
+      <UniqueIdentifier>{1c6245f8-4805-43bb-8b60-bae54975dfa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{bb6e290b-339f-4548-8d3a-60ff0067117e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Xinput\XinputDevice.cpp">
+      <Filter>Xinput</Filter>
+    </ClCompile>
+    <ClCompile Include="DX\Dx9.cpp">
+      <Filter>Dx</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\WriteDebugLog.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Xinput\XinputDevice.h">
+      <Filter>Xinput</Filter>
+    </ClInclude>
+    <ClInclude Include="DX\Dx9.h">
+      <Filter>Dx</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\WriteDebugLog.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
