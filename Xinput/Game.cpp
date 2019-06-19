@@ -43,7 +43,8 @@ void Game::Render()
 		&turnPos,		// 表示範囲
 		DT_RIGHT,	// 文字の寄り
 		0xFFFFFFFF		// color
-	);	m_Commands.Render();
+	);
+	m_Commands.Render();
 }
 
 void Game::Register(Dx9* dx9)
@@ -57,7 +58,6 @@ void Game::LoadTexture(LPCWSTR FilePath, tstring TextureKey)
 		m_Dx9->pD3Device,
 		FilePath,
 		&m_Dx9->pTexture[TextureKey]);
-
 }
 
 void Game::LoadResource()
